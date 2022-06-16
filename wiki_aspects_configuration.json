@@ -1,0 +1,905 @@
+{
+	"propertyTypes": [
+		{
+			"id": "P50",
+			"label": "author",
+			"showInExplanation": "true",
+			"recognizable": "true",
+			"filterable": "false",
+			"recognitionAliases": [
+				"author",
+				"writer"
+			],
+			"dbMapping": {
+				"tableName": "property_object_entity_mappings",
+				"columnName": "property_id"
+			}
+		},
+		{
+			"id": "P123",
+			"label": "publisher",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_object_entity_mappings",
+				"columnName": "property_id"
+			}
+		},
+		{
+			"id": "P136",
+			"label": "genre",
+			"showInExplanation": "true",
+			"recognizable": "true",
+			"filterable": "true",
+			"recognitionAliases": [
+				"genre"
+			],
+			"dbMapping": {
+				"tableName": "property_object_entity_mappings",
+				"columnName": "property_id"
+			}
+		},
+		{
+			"id": "P921",
+			"label": "subject",
+			"showInExplanation": "true",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_object_entity_mappings",
+				"columnName": "property_id"
+			}
+		},
+		{
+			"id": "P495",
+			"label": "country",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_values_varchar",
+				"columnName": "value"
+			}
+		},
+		{
+			"id": "P407",
+			"label": "language",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_values_varchar",
+				"columnName": "value"
+			}
+		},
+		{
+			"id": "P577",
+			"label": "release date",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_values_date",
+				"columnName": "value"
+			}
+		},
+		{
+			"id": "P1104",
+			"label": "number of pages",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_values_int",
+				"columnName": "value"
+			}
+		},
+		{
+			"id": "P212",
+			"label": "ISBN-13",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_values_varchar",
+				"columnName": "value"
+			}
+		},
+		{
+			"id": "P957",
+			"label": "ISBN-10",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_values_varchar",
+				"columnName": "value"
+			}
+		},
+		{
+			"id": "P1476",
+			"label": "title",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_values_varchar",
+				"columnName": "value"
+			}
+		},
+		{
+			"id": "releaseYear",
+			"label": "release year",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_values_int",
+				"columnName": "value"
+			}
+		},
+		{
+			"id": "description",
+			"label": "description",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_values_text",
+				"columnName": "value"
+			}
+		},
+		{
+			"id": "infoLink",
+			"label": "goodreads link",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_values_varchar",
+				"columnName": "value"
+			}
+		},
+		{
+			"id": "cover",
+			"label": "cover",
+			"showInExplanation": "false",
+			"recognizable": "false",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_values_varchar",
+				"columnName": "value"
+			}
+		},
+		{
+			"id": "review",
+			"label": "review",
+			"showInExplanation": "true",
+			"recognizable": "true",
+			"filterable": "false",
+			"dbMapping": {
+				"tableName": "property_object_entity_mappings",
+				"columnName": "property_id"
+			},
+			"emoji": "\ud83c\udf99"
+		}
+	],
+
+	"propertyTypesDetailsLayout": [
+		"P1476",
+		"releaseYear",
+		"P50",
+		"P123",
+		"P136",
+		"description",
+		"P921",
+		"P577",
+		"P212",
+		"P957"
+	],
+
+	"keywords": [
+		{
+			"id": "recommended_entity",
+			"aliases": [
+				"it",
+				"this book",
+				"that book",
+				"that",
+				"this"
+			]
+		}
+	],
+
+	"propertyTypeName": "P1476",
+	"propertyTypeReleaseYear": "releaseYear",
+	"propertyTypeImage": "cover",
+	"propertyTypeTrailer": "infoLink",
+	"stopWordsForPreference": [],
+	"stopWordsForCritiquing": ["book"],
+	"stopWordsForRecommendationFilters": ["book"],
+	"entityEmoji": "\ud83d\udcfd",
+
+
+	"popularEntities": [
+		"Frindle",
+		"So Long, and Thanks for All the Fish",
+		"The Second Coming of Steve Jobs",
+		"The Seven Habits of Highly Effective People",
+		"I Married a Communist",
+		"Aztec",
+		"Dissolution",
+		"Paper Towns",
+		"The Road",
+		"In Cold Blood"
+	],
+
+	"databaseConf": {
+		"dbUrl": "jdbc:mysql://127.0.0.1:3306/",
+		"dbName": "converse_db_sgarro_wiki_aspects",
+		"dbUser": "root",
+		"dbPass": "lacam"
+	},
+	"recsysConf": {
+		"_comment":"se diverso da \"contentBased\" viene eseguito il pagerank poiché è indipendente dal sistema esterno",
+		"recsysAlgorithm": "pageRank",
+		"recsysUrl": "http://90.147.102.243:5000",
+		"recsysIndex": 1
+	},
+
+	"isPropertyTypeDisambiguationEnabled": false,
+	"numFreeTextPreferences": 5,
+	"minPreferencesFirstSession": 5,
+	"minPreferencesSecondSession": 3,
+	"numSuggestedItems": 0,
+	"actLearnFunction": "pop",
+	"recSysServiceBasePath": "http://90.147.102.235:8080/movierecsysservice/restService",
+	"sentimentExtractorBasePath": "http://90.147.102.235:8080/EntityRecognizer",
+	"entityExtractorBasePath": "http://90.147.102.235:16000/swap/nel",
+	"dialogFlowToken" : "5dd84492ca9040829e527958512d7b27",
+	"dialogflowV2AgentName": "feelathomeagent",
+	"dialogflowV2CredentialsPath": "/media/extDisk/googlesdk/feelathomeagent-9bec8599ea28.json",
+	"recListSize": 1,
+	"maxCycles": 3,
+	"interactionType": "mixed",
+
+	"doQuestionnaire": true,
+	"questionnaire": [
+		{
+			"id": 0,
+			"label": "I hope you are liking this bot so far. Now you'll go through a questionnaire that will help us gather some data about your experience, to allow us to improve it even more! Tap \"Let's start!\" when you're ready.",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Let's start!"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"label": "Please choose your gender:",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Male"
+				},
+				{
+					"key": 2,
+					"value": "Female"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"label": "Please select your age group:",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "-20"
+				},
+				{
+					"key": 2,
+					"value": "21-30"
+				},
+				{
+					"key": 3,
+					"value": "31-40"
+				},
+				{
+					"key": 4,
+					"value": "41-50"
+				},
+				{
+					"key": 5,
+					"value": "51-60"
+				},
+				{
+					"key": 6,
+					"value": "61-"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"label": "Please choose your education level:",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Primary School"
+				},
+				{
+					"key": 2,
+					"value": "High School"
+				},
+				{
+					"key": 3,
+					"value": "College"
+				},
+				{
+					"key": 4,
+					"value": "Graduate School"
+				},
+				{
+					"key": 5,
+					"value": "Ph.D."
+				}
+			]
+		},
+		{
+			"id": 4,
+			"label": "Please indicate you current employment:",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Student"
+				},
+				{
+					"key": 2,
+					"value": "Public Company Staff"
+				},
+				{
+					"key": 3,
+					"value": "Private Company Staff"
+				},
+				{
+					"key": 4,
+					"value": "Self Employed"
+				},
+				{
+					"key": 5,
+					"value": "Unemployed"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"label": "How would you rate yourself as a computer user?",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "No experience"
+				},
+				{
+					"key": 2,
+					"value": "Beginner"
+				},
+				{
+					"key": 3,
+					"value": "Average"
+				},
+				{
+					"key": 4,
+					"value": "Advanced"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"label": "Have you ever used a recommender system before?",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Yes"
+				},
+				{
+					"key": 2,
+					"value": "No"
+				},
+				{
+					"key": 3,
+					"value": "Maybe"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"label": "How frequently have you used conversational agents and digital assistants?",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Never"
+				},
+				{
+					"key": 2,
+					"value": "Very infrequently (a few times overall)"
+				},
+				{
+					"key": 3,
+					"value": "Infrequently (a few times per month)"
+				},
+				{
+					"key": 4,
+					"value": "Moderately (1-3 times a week)"
+				},
+				{
+					"key": 5,
+					"value": "Regularly (daily)"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"label": "How much are you interested in books?",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "High"
+				},
+				{
+					"key": 2,
+					"value": "Medium"
+				},
+				{
+					"key": 3,
+					"value": "Low"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"label": "I became familiar with the recommender system very quickly",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"label": "I feel in control of expressing my actual preferences",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 11,
+			"label": "I found it easy to tell the system what I like/dislike",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 12,
+			"label": "The items recommended to me match my interests",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 13,
+			"label": "I understood why the items were recommended to me",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 14,
+			"label": "This recommender system helped me discover new products",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 15,
+			"label": "This recommender system provided me with unexpected suggestions",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 16,
+			"label": "I will use this recommender again",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 17,
+			"label": "It is easy for me to inform the system if I like/dislike the recommended items",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 18,
+			"label": "The information provided for the recommended items is sufficient for me to make a purchase/download decision.",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 19,
+			"label": "The recommender helped me find the ideal item",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 20,
+			"label": "The recommendations get better as I interact with the system (please answer �None of the above� if you liked the first recommended book�).",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				},
+				{
+					"key": 6,
+					"value": "None of the above"
+				}
+			]
+		},
+		{
+			"id": 21,
+			"label": "It is easy for the recommender to understand what I said",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 22,
+			"label": "The recommender can be trusted",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 23,
+			"label": "The preferences in my profile correspond to the preferences expressed to the recommender",
+			"showProfile": true,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		},
+		{
+			"id": 24,
+			"label": "Overall, I am satisfied with the recommender",
+			"showProfile": false,
+			"possibleAnswers": [
+				{
+					"key": 1,
+					"value": "Strongly agree"
+				},
+				{
+					"key": 2,
+					"value": "Agree"
+				},
+				{
+					"key": 3,
+					"value": "Don't know"
+				},
+				{
+					"key": 4,
+					"value": "Disagree"
+				},
+				{
+					"key": 5,
+					"value": "Strongly disagree"
+				}
+			]
+		}
+	]
+}
